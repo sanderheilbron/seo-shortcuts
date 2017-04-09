@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SEO Shortcuts</title>
+    <style>
+        body {
+            padding: 0px;
+        }
+
+        .status {
+            color: green;
+            padding-left: 1em;
+            font-weight: bold;
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        .documentation__links {
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+            margin-top: 3em;
+        }
+
+        .documentation__item {
+            margin: 1em 1em 1em 1em;
+            text-align: right;
+        }
+
+        .documentation__item a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>Google</h2>
+
+    <fieldset>
+        <p>
+            <label for="countryVersion">Country Version</label>
+        </p>
+        <input type="text" id="countryVersion" value="">
+        <small>Set the preferred Google .tld</small>
+    </fieldset>
+
+    <fieldset>
+        <p>
+            <label for="interfaceLanguage">Interface Language</label>
+        </p>
+        <input type="text" id="interfaceLanguage" value="">
+        <small>Set the preferred Google interface language</small>
+    </fieldset>
+
+    <br>
+    <h2>Yellow Lab Tools</h2>
+    <fieldset>
+        <p>Autorun</p>
+        <input type="checkbox" id="autoRun" value="">
+        <small><label for="autoRun">Launch Yellow Lab Tools tests automatically</label></small>
+    </fieldset>
+    <br>
+    <br>
+
+    <button id="save">Save</button>
+    <button id="restore">Restore defaults</button>
+    <span id="status" class="status"></span>
+
+    <ul class="documentation__links">
+        <li class="documentation__item"><a href="instructions.html" target="_blank">Instructions</a></li>
+        <li class="documentation__item"><a href="commands.html" target="_blank">Commands</a></li>
+        <li class="documentation__item"><a href="upgrade.html" target="_blank">Release notes</a></li>
+    </ul>
+
+
+    <script src="js/options.js"></script>
+</body>
+
+</html>

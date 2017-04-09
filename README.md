@@ -7,7 +7,7 @@ The command line interface for your browser. Gives easy access to web services, 
 SEO Shortcuts is a Chrome extension that functions as a smart bookmarklet. It features several commands which can be accessed through Google Chrome's address bar, which is also known as the omnibox.
 
 ## How to use
-When you enter the extension's keyword ```Shift``` + ```>``` and press Tab, you start interacting solely with the extension. By typing a command the extension shows suggestions of available commands which match your search query.
+When you enter the extension's keyword <kbd>Shift</kbd> + <kbd>></kbd> and press <kbd>Tab</kbd>, you start interacting solely with the extension. By typing a command the extension shows suggestions of available commands which match your search query.
 
 You can use the command ```help``` to open an overview of all available commands. SEO Shortcuts provides several commands which are relevant for SEO, Performance (WPO) and Security.
 
@@ -83,17 +83,15 @@ Download and install the Chrome extension from the [Chrome Web Store][1].
 ## Usage
 ### Windows
 1. Open a browser tab and visit a website
-2. Select the Omnibox: ```Ctrl``` + ```L``` or click the Omnibox once
-3. Type ```Shift``` + ```>``` and press ```Tab```
-4. Type a command<sup>∗</sup> and press ```Enter```
-
-<sup>∗</sup> use command ```help``` for an overview of all available commands
+2. Select the Omnibox: <kbd>Ctrl</kbd> + <kbd>L</kbd> or click the Omnibox once
+3. Type <kbd>Shift</kbd> + <kbd>></kbd> and press <kbd>Tab</kbd>
+4. Type a command<sup>∗</sup> and press <kbd>Enter</kbd>
 
 ### MacOS
 1. Open a browser tab and visit a website
-2. Select the Omnibox: ```⌘```  + ```L``` or click the Omnibox once
-3. Type ```⇧``` + ```>``` and press ```⇥```
-4. Type a command<sup>∗</sup> and press ```↵```
+2. Select the Omnibox: <kbd>Cmd</kbd>  + <kbd>L</kbd> or click the Omnibox once
+3. Type <kbd>Shift</kbd> + <kbd>></kbd> and press <kbd>Tab</kbd>
+4. Type a command<sup>∗</sup> and press <kbd>Enter</kbd>
 
 <sup>∗</sup> use command ```help``` for an overview of all available commands
 

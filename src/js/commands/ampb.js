@@ -4,6 +4,6 @@
  */
 
 (function() {
-  'use strict';
-  window.open('https://ampbench.appspot.com/validate?url=' + encodeURIComponent(document.location.href));
+    'use strict';
+    window.open('https://ampbench.appspot.com/validate?url=' + encodeURIComponent(document.location.href));
 })();

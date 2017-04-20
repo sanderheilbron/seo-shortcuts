@@ -4,6 +4,6 @@
  */
 
 (function() {
-  'use strict';
-  window.open('https://dnsimple.com/whois/' + encodeURIComponent(location.hostname.split('.').reverse()[1])+'.'+encodeURIComponent(location.hostname.split('.').reverse()[0]));
+    'use strict';
+    window.open('https://dnsimple.com/whois/' + encodeURIComponent(location.hostname.split('.').reverse()[1]) + '.' + encodeURIComponent(location.hostname.split('.').reverse()[0]));
 })();

@@ -4,6 +4,6 @@
  */
 
 (function() {
-  'use strict';
-  window.open('https://majestic.com/reports/site-explorer?q=' + encodeURIComponent(document.location.href));
+    'use strict';
+    window.open('https://majestic.com/reports/site-explorer?q=' + encodeURIComponent(document.location.href));
 })();

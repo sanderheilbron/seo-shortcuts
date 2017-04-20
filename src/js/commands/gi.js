@@ -4,16 +4,16 @@
  */
 
 (function() {
-  'use strict';
+    'use strict';
 
-  //Loads options from chrome.storage.sync.
-  chrome.storage.sync.get(["countryVersion","interfaceLanguage"], function(settings) {
-    if (!chrome.runtime.error) {
-      var countryVersion = settings.countryVersion;
-      var interfaceLanguage = settings.interfaceLanguage;
-    }
+    //Loads options from chrome.storage.sync.
+    chrome.storage.sync.get(["countryVersion", "interfaceLanguage"], function(settings) {
+        if (!chrome.runtime.error) {
+            var countryVersion = settings.countryVersion;
+            var interfaceLanguage = settings.interfaceLanguage;
+        }
 
-    window.open('https://www.google.' + countryVersion + '/search?q=info:' + encodeURIComponent(document.location.href) + '&hl=' + interfaceLanguage);
-  });
+        window.open('https://www.google.' + countryVersion + '/search?q=info:' + encodeURIComponent(document.location.href) + '&hl=' + interfaceLanguage);
+    });
 
 })();

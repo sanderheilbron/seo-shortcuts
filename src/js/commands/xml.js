@@ -4,6 +4,6 @@
  */
 
 (function() {
-  'use strict';
-  window.open(document.location.origin + '/sitemap.xml');
+    'use strict';
+    window.open(document.location.origin + '/sitemap.xml');
 })();

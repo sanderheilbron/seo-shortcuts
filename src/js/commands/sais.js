@@ -4,6 +4,6 @@
  */
 
 (function() {
-  'use strict';
-  window.open('https://archive.is/?run=1&url=' + encodeURIComponent(document.location.href));
+    'use strict';
+    window.open('https://archive.is/?run=1&url=' + encodeURIComponent(document.location.href));
 })();

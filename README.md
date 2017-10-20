@@ -30,7 +30,7 @@ Runs a script inside the DOM of the current visited webpage. The output or resul
 |--------------|------------|-------------|
 | ```a```      | Inject     | Annotations of all anchors  |
 | ```ais```    | Open       | [Archive.is webpage capture](http://archive.is/) |
-| ```ah```    | Open       | [Ahrefs Site Explorer](ahrefs.com) |
+| ```ah```    | Open       | [Ahrefs Site Explorer](https://ahrefs.com/) |
 | ```ampb```   | Open       | [AMPBench](https://ampbench.appspot.com/validate?url=https%3A%2F%2Fampbyexample.com%2F) |
 | ```ampv```   | Open       | [AMP Validator](https://validator.ampproject.org/) |
 | ```ampt```   | Open       | [Google Search Console AMP Test](https://search.google.com/search-console/amp)  |

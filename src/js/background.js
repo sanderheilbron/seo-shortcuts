@@ -22,6 +22,10 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest) {
             description: "<dim>command </dim><match>a</match> - Show visual annotations of all anchors"
         },
         {
+            content: "ah",
+            description: "<dim>command </dim><match>ah</match> - Check current URL in Ahrefs Site Explorer"
+        },
+        {
             content: "ais",
             description: "<dim>command </dim><match>ais</match> - Check current URL in Archive.is"
         },

@@ -4,15 +4,19 @@
  */
 
 (function() {
-    'use strict';
+  "use strict";
 
-    //Loads options from chrome.storage.sync.
-    chrome.storage.sync.get(["interfaceLanguage"], function(settings) {
-        if (!chrome.runtime.error) {
-            var interfaceLanguage = settings.interfaceLanguage;
-        }
+  //Loads options from chrome.storage.sync.
+  chrome.storage.sync.get(["interfaceLanguage"], function(settings) {
+    if (!chrome.runtime.error) {
+      var interfaceLanguage = settings.interfaceLanguage;
+    }
 
-        window.open('https://www.google.com/webmasters/tools/dashboard?siteUrl=' + encodeURIComponent(document.location.origin) + '&hl=' + interfaceLanguage);
-    });
-
+    window.open(
+      "https://www.google.com/webmasters/tools/dashboard?siteUrl=" +
+        encodeURIComponent(document.location.origin) +
+        "&hl=" +
+        interfaceLanguage
+    );
+  });
 })();

@@ -4,6 +4,9 @@
  */
 
 (function() {
-    'use strict';
-    window.open('https://dns.google.com/query?name=' + encodeURIComponent(document.location.hostname));
+  "use strict";
+  window.open(
+    "https://dns.google.com/query?name=" +
+      encodeURIComponent(document.location.hostname)
+  );
 })();

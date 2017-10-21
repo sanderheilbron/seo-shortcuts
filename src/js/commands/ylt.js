@@ -4,14 +4,19 @@
  */
 
 (function() {
-    'use strict';
+  "use strict";
 
-    //Loads options from chrome.storage.sync.
-    chrome.storage.sync.get(["autoRun"], function(settings) {
-        if (!chrome.runtime.error) {
-            var autoRun = settings.autoRun;
-        }
+  //Loads options from chrome.storage.sync.
+  chrome.storage.sync.get(["autoRun"], function(settings) {
+    if (!chrome.runtime.error) {
+      var autoRun = settings.autoRun;
+    }
 
-        window.open('http://yellowlab.tools?url=' + encodeURIComponent(document.location.href) + '&run=' + autoRun);
-    });
+    window.open(
+      "http://yellowlab.tools?url=" +
+        encodeURIComponent(document.location.href) +
+        "&run=" +
+        autoRun
+    );
+  });
 })();

@@ -49,6 +49,11 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest) {
         "<dim>command </dim><match>ampt</match> - Check current URL in Google Search Console AMP Test"
     },
     {
+      content: "cdn",
+      description:
+        "<dim>command </dim><match>cdn</match> - Look up the names of all CDNs used on a web page"
+    },
+    {
       content: "cl",
       description:
         "<dim>command </dim><match>cl</match> - Disable Google click tracking in Google Search Engine Result Page"
@@ -82,6 +87,11 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest) {
       content: "gsc",
       description:
         "<dim>command </dim><match>gsc</match> - Check current origin in Google Search Console"
+    },
+    {
+      content: "hl",
+      description:
+        "<dim>command </dim><match>hl</match> - Check hreflang annotations for current URL in hreflang.ninja"
     },
     {
       content: "hx",

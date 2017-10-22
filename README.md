@@ -30,7 +30,7 @@ Runs a script inside the DOM of the current visited webpage. The output or resul
 |--------------|------------|-------------|
 | ```a```      | Inject     | Annotations of all anchors  |
 | ```ais```    | Open       | [Archive.is webpage capture](http://archive.is/) |
-| ```ah```    | Open       | [Ahrefs Site Explorer](https://ahrefs.com/) |
+| ```ah```     | Open       | [Ahrefs Site Explorer](https://ahrefs.com/) |
 | ```ampb```   | Open       | [AMPBench](https://ampbench.appspot.com/validate?url=https%3A%2F%2Fampbyexample.com%2F) |
 | ```ampv```   | Open       | [AMP Validator](https://validator.ampproject.org/) |
 | ```ampt```   | Open       | [Google Search Console AMP Test](https://search.google.com/search-console/amp)  |
@@ -41,6 +41,7 @@ Runs a script inside the DOM of the current visited webpage. The output or resul
 | ```gi```     | Open       | Google Search info: command  |
 | ```gs```     | Open       | Google Search site: command  |
 | ```gsc```    | Open       | [Google Search Console](https://www.google.com/webmasters/)  |
+| ```hl```     | Open       | [hreflang.ninja](http://hreflang.ninja/)  |
 | ```hx```     | Inject     | Annotations of heading structure  |
 | ```hxa```    | Inject     | Annotations of heading structure and anchors  |
 | ```ld```     | Runs       | Show all JSON-LD script tags for the current tab |
@@ -60,6 +61,7 @@ Runs a script inside the DOM of the current visited webpage. The output or resul
 
 | Command      | Type       | Description |
 |--------------|------------|-------------|
+| ```cdn```    | Open       | [CDN Finder tool - CDNPlanet](https://www.cdnplanet.com) |
 | ```pa```     | Inject     | [Performance-Analyser](https://github.com/micmro/performance-bookmarklet)  |
 | ```pm```     | Inject     | [PerfMap: front-end performance heatmap](https://github.com/zeman/perfmap)  |
 | ```psi```    | Open       | [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)  |

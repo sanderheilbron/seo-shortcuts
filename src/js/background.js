@@ -74,6 +74,11 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest) {
         "<dim>command </dim><match>gc</match> - Check current URL in Google cache"
     },
     {
+      content: "gtm",
+      description:
+        "<dim>command </dim><match>gtm</match> - Check current URL with GTmetrix"
+    },
+    {
       content: "gi",
       description:
         "<dim>command </dim><match>gi</match> - Check if the current URL is the canonical URL in Google Search index"

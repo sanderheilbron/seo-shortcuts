@@ -62,6 +62,7 @@ Runs a script inside the DOM of the current visited webpage. The output or resul
 | Command      | Type       | Description |
 |--------------|------------|-------------|
 | ```cdn```    | Open       | [CDN Finder tool - CDNPlanet](https://www.cdnplanet.com) |
+| ```gtm```    | Open       | [GTmetrix](https://gtmetrix.com/) |
 | ```pa```     | Inject     | [Performance-Analyser](https://github.com/micmro/performance-bookmarklet)  |
 | ```pm```     | Inject     | [PerfMap: front-end performance heatmap](https://github.com/zeman/perfmap)  |
 | ```psi```    | Open       | [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)  |

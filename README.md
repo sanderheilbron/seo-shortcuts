@@ -44,6 +44,7 @@ Runs a script inside the DOM of the current visited webpage. The output or resul
 | ```hl```     | Open       | [hreflang.ninja](http://hreflang.ninja/)  |
 | ```hx```     | Inject     | Annotations of heading structure  |
 | ```hxa```    | Inject     | Annotations of heading structure and anchors  |
+| ```img```    | Inject     | Highlight images on the page that are missing an alt tag  |
 | ```ld```     | Runs       | Show all JSON-LD script tags for the current tab |
 | ```mft```     | Open      | [Google Mobile-Friendly Test](https://search.google.com/search-console/mobile-friendly)  |
 | ```mj```     | Open       | [Majestic Backlink Checker](https://majestic.com/)  |

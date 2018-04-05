@@ -48,6 +48,7 @@ Runs a script inside the DOM of the current visited webpage. The output or resul
 | ```mft```     | Open      | [Google Mobile-Friendly Test](https://search.google.com/search-console/mobile-friendly)  |
 | ```mj```     | Open       | [Majestic Backlink Checker](https://majestic.com/)  |
 | ```ose```    | Open       | [Moz Open Site Explorer](https://moz.com/researchtools/ose/)  |
+| ```rlp```    | Open       | [Rich Link Preview](https://richpreview.com/)  |
 | ```rtt```    | Open       | [OnPage.org Robots.txt Test Tool](https://en.onpage.org/free-tools/robots-txt/)  |
 | ```sais```   | Open       | [Capture webpage in Archive.is](http://archive.is/)  |
 | ```sdtt```   | Open       | [Google Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)  |

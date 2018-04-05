@@ -109,6 +109,11 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest) {
         "<dim>command </dim><match>hxa</match> - Show visual annotations of the HTML heading structure and anchors"
     },
     {
+      content: "img",
+      description:
+        "<dim>command </dim><match>img</match> - Highlight images on the page that are missing an alt tag"
+    },
+    {
       content: "ld",
       description:
         "<dim>command </dim><match>ld</match> - Show contents of JSON-LD script tags for the current URL in the console"

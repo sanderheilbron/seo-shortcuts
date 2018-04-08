@@ -44,10 +44,12 @@ Runs a script inside the DOM of the current visited webpage. The output or resul
 | ```hl```     | Open       | [hreflang.ninja](http://hreflang.ninja/)  |
 | ```hx```     | Inject     | Annotations of heading structure  |
 | ```hxa```    | Inject     | Annotations of heading structure and anchors  |
+| ```img```    | Inject     | Highlight images on the page that are missing an alt tag  |
 | ```ld```     | Runs       | Show all JSON-LD script tags for the current tab |
 | ```mft```     | Open      | [Google Mobile-Friendly Test](https://search.google.com/search-console/mobile-friendly)  |
 | ```mj```     | Open       | [Majestic Backlink Checker](https://majestic.com/)  |
 | ```ose```    | Open       | [Moz Open Site Explorer](https://moz.com/researchtools/ose/)  |
+| ```rlp```    | Open       | [Rich Link Preview](https://richpreview.com/)  |
 | ```rtt```    | Open       | [OnPage.org Robots.txt Test Tool](https://en.onpage.org/free-tools/robots-txt/)  |
 | ```sais```   | Open       | [Capture webpage in Archive.is](http://archive.is/)  |
 | ```sdtt```   | Open       | [Google Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)  |
@@ -62,6 +64,7 @@ Runs a script inside the DOM of the current visited webpage. The output or resul
 | Command      | Type       | Description |
 |--------------|------------|-------------|
 | ```cdn```    | Open       | [CDN Finder tool - CDNPlanet](https://www.cdnplanet.com) |
+| ```gtm```    | Open       | [GTmetrix](https://gtmetrix.com/) |
 | ```pa```     | Inject     | [Performance-Analyser](https://github.com/micmro/performance-bookmarklet)  |
 | ```pm```     | Inject     | [PerfMap: front-end performance heatmap](https://github.com/zeman/perfmap)  |
 | ```psi```    | Open       | [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)  |

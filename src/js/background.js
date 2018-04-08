@@ -74,6 +74,11 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest) {
         "<dim>command </dim><match>gc</match> - Check current URL in Google cache"
     },
     {
+      content: "gtm",
+      description:
+        "<dim>command </dim><match>gtm</match> - Check current URL with GTmetrix"
+    },
+    {
       content: "gi",
       description:
         "<dim>command </dim><match>gi</match> - Check if the current URL is the canonical URL in Google Search index"
@@ -102,6 +107,11 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest) {
       content: "hxa",
       description:
         "<dim>command </dim><match>hxa</match> - Show visual annotations of the HTML heading structure and anchors"
+    },
+    {
+      content: "img",
+      description:
+        "<dim>command </dim><match>img</match> - Highlight images on the page that are missing an alt tag"
     },
     {
       content: "ld",
@@ -142,6 +152,11 @@ chrome.omnibox.onInputChanged.addListener(function(text, suggest) {
       content: "psi",
       description:
         "<dim>command </dim><match>psi</match> - Check current URL in Google PageSpeed Insights"
+    },
+    {
+      content: "rlp",
+      description:
+        "<dim>command </dim><match>rlp</match> - Check current URL in RichPreview.com"
     },
     {
       content: "rtt",

@@ -11,11 +11,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-*   [#2](https://github.com/sanderheilbron/seo-shortcuts/pull/2) gtm command for GTmetrix.com (credits [@MartijnOud](https://github.com/MartijnOud))
-*   [#3](https://github.com/sanderheilbron/seo-shortcuts/pull/3) img command to highlight images on the page that are missing an alt tag (credits [@MartijnOud](https://github.com/MartijnOud))
-*   [#4](https://github.com/sanderheilbron/seo-shortcuts/pull/4) rlp command for Rich Link Preview (credits [@MartijnOud](https://github.com/MartijnOud))
-*   rrtt command for Google Rich Results Test Tool
-*   hsts command for HSTS Preload List Submission
+*   [#2](https://github.com/sanderheilbron/seo-shortcuts/pull/2) ```gtm``` command for GTmetrix.com (credits [@MartijnOud](https://github.com/MartijnOud))
+*   [#3](https://github.com/sanderheilbron/seo-shortcuts/pull/3) ```img``` command to highlight images on the page that are missing an alt tag (credits [@MartijnOud](https://github.com/MartijnOud))
+*   [#4](https://github.com/sanderheilbron/seo-shortcuts/pull/4) ```rlp``` command for Rich Link Preview (credits [@MartijnOud](https://github.com/MartijnOud))
+*   ```rrtt``` command for Google Rich Results Test Tool
+*   ```hsts``` command for HSTS Preload List Submission
 
 ## 1.1.0 - 2017-10-22
 

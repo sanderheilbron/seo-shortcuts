@@ -4,6 +4,6 @@
  */
 
 (function() {
-  "use strict";
-  window.open("http://archive.is/" + document.location.href);
+    'use strict';
+    window.open('http://archive.is/' + document.location.href);
 })();

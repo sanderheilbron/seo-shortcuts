@@ -4,9 +4,9 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "https://ahrefs.com/site-explorer/overview/v2/prefix/fresh?target=" +
-      encodeURIComponent(document.location.href)
-  );
+    'use strict';
+    window.open(
+        'https://ahrefs.com/site-explorer/overview/v2/prefix/fresh?target=' +
+            encodeURIComponent(document.location.href)
+    );
 })();

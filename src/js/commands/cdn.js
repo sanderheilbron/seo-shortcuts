@@ -4,8 +4,9 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "https://www.cdnplanet.com/tools/cdnfinder/#site:" + document.location.href
-  );
+    'use strict';
+    window.open(
+        'https://www.cdnplanet.com/tools/cdnfinder/#site:' +
+            document.location.href
+    );
 })();

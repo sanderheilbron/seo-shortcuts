@@ -4,9 +4,9 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "https://moz.com/researchtools/ose/links?site=" +
-      encodeURIComponent(document.location.href)
-  );
+    'use strict';
+    window.open(
+        'https://moz.com/researchtools/ose/links?site=' +
+            encodeURIComponent(document.location.href)
+    );
 })();

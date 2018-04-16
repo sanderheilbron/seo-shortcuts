@@ -1,6 +1,6 @@
 /**
- * sm.js 1.0
- * Check current hostname in Searchmetrics
+ * hsts.js 1.0
+ * Check current domain for HSTS Preload List Submission
  */
 
 (function() {
@@ -14,8 +14,5 @@
         url = arr[1] + '.' + arr[2];
     }
 
-    window.open(
-        'http://suite.searchmetrics.com/en/research/domains/organic?url=' +
-            encodeURIComponent(url)
-    );
+    window.open('https://hstspreload.org/?domain=' + encodeURIComponent(url));
 })();

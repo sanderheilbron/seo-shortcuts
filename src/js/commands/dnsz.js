@@ -4,8 +4,8 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "http://zone.vision/#/" + encodeURIComponent(document.location.host)
-  );
+    'use strict';
+    window.open(
+        'http://zone.vision/#/' + encodeURIComponent(document.location.host)
+    );
 })();

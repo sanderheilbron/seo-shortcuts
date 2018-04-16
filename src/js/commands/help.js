@@ -4,8 +4,8 @@
  */
 
 (function() {
-  "use strict";
-  chrome.tabs.create({
-    url: "commands.html"
-  });
+    'use strict';
+    chrome.tabs.create({
+        url: 'commands.html',
+    });
 })();

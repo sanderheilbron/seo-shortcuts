@@ -6,7 +6,7 @@
 (function() {
     'use strict';
     window.open(
-        'https://dnsimple.com/whois/' +
+        'https://dnsimple.com/whois?id=' +
             encodeURIComponent(location.hostname.split('.').reverse()[1]) +
             '.' +
             encodeURIComponent(location.hostname.split('.').reverse()[0])

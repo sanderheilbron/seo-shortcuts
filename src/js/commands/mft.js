@@ -12,7 +12,7 @@
         }
 
         window.open(
-            'https://search.google.com/search-console/mobile-friendly?url=' +
+            'https://search.google.com/test/mobile-friendly?url=' +
                 encodeURIComponent(document.location.href) +
                 '&hl=' +
                 interfaceLanguage

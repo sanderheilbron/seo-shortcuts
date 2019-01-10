@@ -12,7 +12,7 @@
         }
 
         window.open(
-            'https://search.google.com/search-console/amp?url=' +
+            'https://search.google.com/test/amp?url=' +
                 encodeURIComponent(document.location.href) +
                 '&hl=' +
                 interfaceLanguage

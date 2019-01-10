@@ -26,4 +26,4 @@ See [changelog][5] for details.
 [2]: https://github.com/sanderheilbron/seo-shortcuts/issues
 [3]: https://github.com/sanderheilbron/seo-shortcuts/pulls
 [4]: https://www.sanderheilbron.nl
-[5]: https://github.com/sanderheilbron/seo-shortcuts/blob/master/CHANGELOG.md
+[5]: https://www.sanderheilbron.nl/seo-shortcuts/upgrade

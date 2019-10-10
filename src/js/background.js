@@ -162,6 +162,10 @@ chrome.omnibox.onInputChanged.addListener(function (text, suggest) {
             description: '<dim>command </dim><match>si</match> - Shows the calculated Speed Index for the current URL in the console',
         },
         {
+            content: 'sidn',
+            description: '<dim>command </dim><match>sidn</match> - Check current URL in SIDN.nl whois database',
+        },
+        {
             content: 'sm',
             description: '<dim>command </dim><match>sm</match> - Check current hostname in Searchmetrics',
         },

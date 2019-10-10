@@ -4,6 +4,6 @@
  */
 
 (function() {
-  "use strict";
-  window.open(document.location.origin + "/robots.txt");
+    'use strict';
+    window.open(document.location.origin + '/robots.txt');
 })();

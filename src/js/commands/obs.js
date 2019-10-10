@@ -4,9 +4,9 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "https://observatory.mozilla.org/analyze.html?host=" +
-      encodeURIComponent(document.location.hostname)
-  );
+    'use strict';
+    window.open(
+        'https://observatory.mozilla.org/analyze.html?host=' +
+            encodeURIComponent(document.location.hostname)
+    );
 })();

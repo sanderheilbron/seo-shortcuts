@@ -5,9 +5,9 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "http://hreflang.ninja/check/?url=" +
-      encodeURIComponent(document.location.href)
-  );
+    'use strict';
+    window.open(
+        'http://hreflang.ninja/check/?url=' +
+            encodeURIComponent(document.location.href)
+    );
 })();

@@ -4,10 +4,10 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "https://www.ssllabs.com/ssltest/analyze.html?d=" +
-      encodeURIComponent(document.location.host) +
-      "&hideResults=on"
-  );
+    'use strict';
+    window.open(
+        'https://www.ssllabs.com/ssltest/analyze.html?d=' +
+            encodeURIComponent(document.location.host) +
+            '&hideResults=on'
+    );
 })();

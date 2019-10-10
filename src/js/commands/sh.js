@@ -4,10 +4,10 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "https://securityheaders.io/?q=" +
-      encodeURIComponent(document.location.href) +
-      "&hide=on&followRedirects=on"
-  );
+    'use strict';
+    window.open(
+        'https://securityheaders.io/?q=' +
+            encodeURIComponent(document.location.href) +
+            '&hide=on&followRedirects=on'
+    );
 })();

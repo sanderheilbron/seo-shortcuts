@@ -4,9 +4,9 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "https://validator.ampproject.org/#url=" +
-      encodeURIComponent(document.location.href)
-  );
+    'use strict';
+    window.open(
+        'https://validator.ampproject.org/#url=' +
+            encodeURIComponent(document.location.href)
+    );
 })();

@@ -1,6 +1,6 @@
 /**
- * sdtt.js 1.0
- * Check current URL in Google Structured Data Testing Tool
+ * rrtt.js 1.0
+ * Check current URL in Google Rich Results Test Tool
  */
 
 (function() {
@@ -12,7 +12,7 @@
         }
 
         window.open(
-            'https://developers.google.com/structured-data/testing-tool/?url=' +
+            'https://search.google.com/test/rich-results?url=' +
                 encodeURIComponent(document.location.href) +
                 '&hl=' +
                 interfaceLanguage

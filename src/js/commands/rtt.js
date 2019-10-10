@@ -4,10 +4,10 @@
  */
 
 (function() {
-  "use strict";
-  window.open(
-    "https://en.onpage.org/free-tools/robots-txt/?url=" +
-      document.location.href +
-      "&useragent=Googlebot"
-  );
+    'use strict';
+    window.open(
+        'https://en.onpage.org/free-tools/robots-txt/?url=' +
+            document.location.href +
+            '&useragent=Googlebot'
+    );
 })();

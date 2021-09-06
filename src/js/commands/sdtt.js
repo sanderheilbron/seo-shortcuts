@@ -12,10 +12,8 @@
         }
 
         window.open(
-            'https://developers.google.com/structured-data/testing-tool/?url=' +
-                encodeURIComponent(document.location.href) +
-                '&hl=' +
-                interfaceLanguage
+            'https://validator.schema.org/#url=' +
+                encodeURIComponent(document.location.href) 
         );
     });
 })();

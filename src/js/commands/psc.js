@@ -1,12 +1,12 @@
 /**
- * wpt.js 1.0
- * Check current URL in WebPageTest.org
+ * psc.js 1.0
+ * Check current URL in PageSpeed Compare
  */
 
 (function () {
     "use strict";
     window.open(
-        "https://www.webpagetest.org/?url=" +
+        "https://pagespeed.compare?url=" +
             encodeURIComponent(document.location.href)
     );
 })();

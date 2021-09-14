@@ -3,19 +3,19 @@
  * Check current origin in Google Search Console
  */
 
-(function() {
-    'use strict';
+(function () {
+    "use strict";
 
     //Loads options from chrome.storage.sync.
-    chrome.storage.sync.get(['interfaceLanguage'], function(settings) {
+    chrome.storage.sync.get(["interfaceLanguage"], function (settings) {
         if (!chrome.runtime.error) {
             var interfaceLanguage = settings.interfaceLanguage;
         }
 
         window.open(
-            'https://www.google.com/webmasters/tools/dashboard?siteUrl=' +
+            "https://search.google.com/search-console?resource_id=" +
                 encodeURIComponent(document.location.origin) +
-                '&hl=' +
+                "&hl=" +
                 interfaceLanguage
         );
     });

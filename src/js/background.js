@@ -174,6 +174,11 @@ chrome.omnibox.onInputChanged.addListener(function (text, suggest) {
                 "<dim>command </dim><match>psi</match> - Check current URL in Google PageSpeed Insights",
         },
         {
+            content: "rh",
+            description:
+                "<dim>command </dim><match>rh</match> - Check current URL in Browser Resource Hint Validator",
+        },
+        {
             content: "rrtt",
             description:
                 "<dim>command </dim><match>rrtt</match> - Check current URL in Google Rich Results Test Tool",

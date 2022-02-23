@@ -1,6 +1,6 @@
 {
     "name": "SEO Shortcuts",
-    "version": "1.5.1",
+    "version": "1.6.0",
     "manifest_version": 2,
     "description": "The command line interface for your browser. Gives easy access to web services, styling and script output in the browser.",
     "background": {

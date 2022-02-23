@@ -64,6 +64,11 @@ chrome.omnibox.onInputChanged.addListener(function (text, suggest) {
                 "<dim>command </dim><match>cl</match> - Disable Google click tracking in Google Search Engine Result Page",
         },
         {
+            content: "ct",
+            description:
+                "<dim>command </dim><match>ct</match> - Take a look inside the head tag of the page with ct.css (by @csswizardry)",
+        },
+        {
             content: "dns",
             description:
                 "<dim>command </dim><match>dns</match> - Check current hostname in Google DNS service",
